@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
 #elem::before{
 	content:"Before Element";
-	color:rgb(0, 0, 0);
+	color:rgb(255, 0, 0);
 }
 #elem::after{
 	content:"After Element";
-	color:rgb(0, 0, 0);
+	color:rgb(255, 0, 0)
 }
