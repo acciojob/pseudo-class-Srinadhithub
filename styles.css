@@ -1,9 +1,11 @@
 /*  your css code here. If applicable */
-#elem::before{
-	content:"Before Element";
-	color:rgb(255, 0, 0);
+.box::before {
+	content: "Before Element";
+	color: red;
+	font-size: 20px;
 }
-#elem::after{
-	content:"After Element";
-	color:rgb(255, 0, 0)
+.box::after {
+	content: "After Element";
+	color: red;
+	font-size: 20px;
 }
